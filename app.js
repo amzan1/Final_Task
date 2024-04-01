@@ -16,14 +16,14 @@ form.addEventListener('submit', function(event){
                 <img src="user.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Info Card</h5>
-                    <p><strong>Name:</strong> <span>${full_name}</span></p>
-                    <p><strong>Email:</strong> <span>${Date.get('email')}</span></p>
+                    <p class="text-nowrap"><strong>Name:</strong> <span>${full_name}</span></p>
+                    <p class="text-nowrap"><strong>Email:</strong> <span>${Date.get('email')}</span></p>
 
-                    <p><strong>Phone Number:</strong> <span>${Date.get('phone')}</span></p>
+                    <p class="text-nowrap"><strong>Phone Number:</strong> <span>${Date.get('phone')}</span></p>
 
-                    <p><strong>Date of Birth:</strong> <span>${Date.get('dob')}</span></p>
+                    <p class="text-nowrap"><strong>Date of Birth:</strong> <span>${Date.get('dob')}</span></p>
 
-                    <p><strong>Gender:</strong> <span>${Date.get('gender')}</span></p>
+                    <p class="text-nowrap"><strong>Gender:</strong> <span>${Date.get('gender')}</span></p>
 
                     <p><strong>Address:</strong> <span>${Date.get('address')}</span></p>
 
